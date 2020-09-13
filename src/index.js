@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 
 ReactDOM.render((
-    <BrowserRouter basename = "https://kriworden20.github.io/my-portfolio">
+    <BrowserRouter basename = "https://kriworden20.github.io/my-portfolio/">
       <App />
     </BrowserRouter>), 
     document.getElementById('root'));
