@@ -155,7 +155,7 @@ class Main extends React.Component {
         return (
             <Switch>
                 <Route exact path='/my-portfolio/' component={AboutMe}></Route>
-                <Route path='/my-portfolio/project' component={Project}></Route>
+                <Route exact path='/my-portfolio/project' component={Project}></Route>
             </Switch>
         );
                 }
