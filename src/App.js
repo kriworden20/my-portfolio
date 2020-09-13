@@ -136,14 +136,16 @@ class App extends React.Component {
 }
 
 class Navigation extends React.Component {
+    
+
     render(){
         
         return (
-             <Navbar bg="light" variant="light" sticky="top">
+             <Navbar bg="light" variant="light" sticky="top" >
                 
                 <Nav className="mr-auto">
                     <Nav.Link  href = "/my-portfolio/">About Me</Nav.Link>
-                    <Nav.Link href="/my-portfolio/">Projects</Nav.Link>
+                    <Nav.Link  href="/my-portfolio/">Projects</Nav.Link>
                 </Nav>
              </Navbar>
          );
@@ -155,7 +157,7 @@ class Main extends React.Component {
         return (
             <Switch>
                 <Route exact path='/my-portfolio/' component={AboutMe}></Route>
-                <Route exact path='/my-portfolio/' component={Project}></Route>
+                <Route exact path='/my-portfolio/' component={Project}></Route>  
             </Switch>
         );
                 }
