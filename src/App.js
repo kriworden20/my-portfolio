@@ -143,7 +143,7 @@ class Navigation extends React.Component {
                 
                 <Nav className="mr-auto">
                     <Nav.Link  href = "/my-portfolio/">About Me</Nav.Link>
-                    <Nav.Link href="/project">Projects</Nav.Link>
+                    <Nav.Link href="/my-portfolio/project">Projects</Nav.Link>
                 </Nav>
              </Navbar>
          );
@@ -155,7 +155,7 @@ class Main extends React.Component {
         return (
             <Switch>
                 <Route exact path='/my-portfolio/' component={AboutMe}></Route>
-                <Route exact path='/my-portfolio/project' component={Project}></Route>
+                <Route path='/my-portfolio/project' component={Project}></Route>
             </Switch>
         );
                 }

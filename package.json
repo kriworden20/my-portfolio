@@ -1,8 +1,8 @@
 {
-  "name": "my-portfolio-app2",
+  "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kriworden20.github.io/my-portfolio/",
+  "homepage": "https://kriworden20.github.io/my-portfolio",
   "dependencies": {
     "-": "0.0.1",
     "@testing-library/jest-dom": "^4.2.4",
