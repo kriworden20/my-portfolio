@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 
 ReactDOM.render((
-    <BrowserRouter>
+    <BrowserRouter basename = "/my-portfolio">
       <App />
     </BrowserRouter>), 
     document.getElementById('root'));

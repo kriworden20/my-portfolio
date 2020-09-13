@@ -142,8 +142,8 @@ class Navigation extends React.Component {
              <Navbar bg="light" variant="light" sticky="top">
                 
                 <Nav className="mr-auto">
-                    <Nav.Link  href = "/">About Me</Nav.Link>
-                    <Nav.Link href="/project">Projects</Nav.Link>
+                    <Nav.Link  href = "/my-portfolio/">About Me</Nav.Link>
+                    <Nav.Link href="/my-portfolio/project">Projects</Nav.Link>
                 </Nav>
              </Navbar>
          );
@@ -154,8 +154,8 @@ class Main extends React.Component {
     render(){
         return (
             <Switch>
-                <Route path='/' component={AboutMe}></Route>
-                <Route path='/project' component={Project}></Route>
+                <Route exactpath='/my-portfolio/' component={AboutMe}></Route>
+                <Route exact path='/my-portfolio/project' component={Project}></Route>
             </Switch>
         );
                 }
